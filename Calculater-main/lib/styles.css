@@ -1,0 +1,53 @@
+#app {
+  width: 400px;
+  margin: 20px auto;
+  border: 10px solid rgb(10, 35, 200);
+}
+
+#monitor {
+  background-color: rgb(206, 219, 20);
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.d-btn {
+  float: left;
+  width: calc(100% / 5 - 2px * 2);
+  margin: 2px;
+  text-align: center;
+  background-color: rgb(228, 30, 30);
+  color: white;
+  padding: 5px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.d-btn:hover {
+  background-color: rgb(30, 32, 200);
+}
+
+.wide {
+  width: calc(100% * 4 / 5 - 2px * 2) !important;
+}
+
+#myDiv {
+  border: 1px solid silver;
+  background-color: lightblue;
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  width: 40px;
+  padding: 10px;
+}
+
+.but1 {
+  width: auto;
+  padding: 10px 11px 10px 10px;
+}
